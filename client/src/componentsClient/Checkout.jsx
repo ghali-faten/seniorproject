@@ -51,7 +51,7 @@ const Checkout = () => {
               <br/><br/>
               <div  style={{textAlign:'center'}}className ='checkout__right'>
                 <form action="/placeholder/" method= "POST"><input type="hidden" name="_csrf" value={window.csrf}/>
-                <input type="text" name="name" placeholder="<NAME>" />
+                <input type="text" name="email" placeholder="<EMAIL>" />
                   <br /><br />
                   <button className = "payment" type="submit"
                    onClick={() => handleCheckout()} >Proceed to Payment</button>
